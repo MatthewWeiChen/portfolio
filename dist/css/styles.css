@@ -62,7 +62,7 @@
 }
 
 .eggplant-background{
-  background-color:#495867;
+  background-color:#b8d8be;
 }
 
 html {
@@ -85,6 +85,7 @@ body {
   color: #212529;
   text-align: left;
   background-color: #fff;
+  overscroll-behavior-y: none;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -10043,16 +10044,16 @@ hr.light {
 
 #mainNav {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  background-color: #fff;
+  background-color: #b8d8be;
   transition: background-color 0.2s ease;
 }
 #mainNav .navbar-brand {
   font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
-  color: #495867;
+  color: #ffffff;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
-  color: #495867;
+  color: #ffffff;
   font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   font-size: 0.9rem;
@@ -10087,10 +10088,10 @@ hr.light {
   }
   #mainNav.navbar-scrolled {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-    background-color: #495867;
+    background-color: #b8d8be;
   }
   #mainNav.navbar-scrolled .navbar-brand {
-    color: #212529;
+    color: #ffffff;
   }
   #mainNav.navbar-scrolled .navbar-brand:hover {
     color: #f4623a;
