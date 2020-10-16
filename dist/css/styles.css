@@ -537,13 +537,12 @@ mark,
   color: #6c757d;
 }
 .blockquote-footer::before {
-  content: "— ";
+  content: "— ";
 }
 
 .img-fluid {
   max-width: 100%;
   width:100%;
-  height: 270px;
 }
 
 .img-thumbnail {

@@ -3,11 +3,11 @@
     * Copyright 2013-2020 Start Bootstrap
     * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-creative/blob/master/LICENSE)
     */
-/*!
-* Start Bootstrap - Creative v6.0.3 (https://startbootstrap.com/themes/creative)
-* Copyright 2013-2020 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-creative/blob/master/LICENSE)
-*/
+    /*!
+    * Start Bootstrap - Creative v6.0.3 (https://startbootstrap.com/themes/creative)
+    * Copyright 2013-2020 Start Bootstrap
+    * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-creative/blob/master/LICENSE)
+    */
 (function ($) {
     "use strict"; // Start of use strict
 
@@ -50,19 +50,19 @@
     $(window).scroll(navbarCollapse);
 
     // Magnific popup calls
-    // $('#portfolio').magnificPopup({
+    //   $('#portfolio').magnificPopup({
     //     delegate: 'a',
     //     type: 'image',
     //     tLoading: 'Loading image #%curr%...',
     //     mainClass: 'mfp-img-mobile',
     //     gallery: {
-    //         enabled: true,
-    //         navigateByImgClick: true,
-    //         preload: [0, 1]
+    //       enabled: true,
+    //       navigateByImgClick: true,
+    //       preload: [0, 1]
     //     },
     //     image: {
-    //         tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
+    //       tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
     //     }
-    // });
+    //   });
 
 })(jQuery); // End of use strict
