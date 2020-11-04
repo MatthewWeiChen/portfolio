@@ -1,11 +1,22 @@
 @charset "UTF-8";
-
+/*!
+* Start Bootstrap - Creative v6.0.3 (https://startbootstrap.com/themes/creative)
+* Copyright 2013-2020 Start Bootstrap
+* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-creative/blob/master/LICENSE)
+*/
+/*!
+ * Bootstrap v4.5.0 (https://getbootstrap.com/)
+ * Copyright 2011-2020 The Bootstrap Authors
+ * Copyright 2011-2020 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
   --pink: #e83e8c;
   --red: #dc3545;
+  --orange: #f4623a;
   --yellow: #ffc107;
   --green: #28a745;
   --teal: #20c997;
@@ -13,6 +24,7 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
+  --primary: #f4623a;
   --secondary: #6c757d;
   --success: #28a745;
   --info: #17a2b8;
@@ -35,86 +47,6 @@
   box-sizing: border-box;
 }
 
-.description-text{
-    font-size: 12px;
-    padding: 10px;
-}
-
-.custom-size{
-  font-size: 50px;
-  line-height: 100px;
-}
-
-.custom-button{
-  display:inline-block;
-  border: 0.1em solid #ffffff;
-  border-radius:0.12em;
-  box-sizing: border-box;
-  text-decoration:none;
-  font-family:'Roboto',sans-serif;
-  font-weight:300;
-  background: transparent;
-  text-align:center;
-  transition: all 0.2s;
-  color: #ffffff;
-  z-index:1;
-}
-
-
-.custom-button:hover{
-    color: #000000;
-    background-color: #FFFFFF;
-}
-
-#typed{
- font-size: 40px;
-}
-
-.image-wrapper{
-   border-radius:50%;
-   width: 50%;
-}
-
-#technologies{
-  color:#7ea4b3;
-}
-
-.title-color{
-    color:#7ea4b3;
-}
-
-.col-4{
-    flex-grow: 0;
-    flex-shrink: 0;
-    flex-basis: 33.3%;
-    max-width: 33.3%;
-}
-
-.icon-color{
-    color:#7ea4b3;
-    font-size: 4rem;
-}
-
-.icon-grid{
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
-
-.eggplant-background{
-  background-color:#7ea4b3;
-}
-
-.paragraph-color{
-    color:#e9eff2
-}
-
-.tools-line{
-  max-width: 3.25rem;
-  border-width: 0.2rem;
-  background-color: #7ea4b3
-}
-
-
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -135,7 +67,6 @@ body {
   color: #212529;
   text-align: left;
   background-color: #fff;
-  overscroll-behavior: none;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -228,12 +159,13 @@ sup {
 }
 
 a {
+  color: #f4623a;
   text-decoration: none;
   background-color: transparent;
 }
-
 a:hover {
   color: #d6370c;
+  text-decoration: underline;
 }
 
 a:not([href]) {
@@ -301,6 +233,7 @@ button {
 
 button:focus {
   outline: 1px dotted;
+  outline: 5px auto -webkit-focus-ring-color;
 }
 
 input,
@@ -537,12 +470,12 @@ mark,
   color: #6c757d;
 }
 .blockquote-footer::before {
-  content: "— ";
+  content: "— ";
 }
 
 .img-fluid {
   max-width: 100%;
-  width:100%;
+  height: auto;
 }
 
 .img-thumbnail {
@@ -2088,7 +2021,7 @@ pre code {
 .form-control:focus {
   color: #495057;
   background-color: #fff;
-  border-color: #ffffff;
+  border-color: #fbc2b3;
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(244, 98, 58, 0.25);
 }
@@ -10066,21 +9999,19 @@ html {
 hr.divider {
   max-width: 3.25rem;
   border-width: 0.2rem;
-  border-color: #fffdd0;
+  border-color: #f4623a;
 }
 
 hr.light {
   border-color: #fff;
 }
 
-
-
 .btn {
   font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .btn-xl {
-  padding: .75rem 2rem;
+  padding: 1.25rem 2.25rem;
   font-size: 0.85rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -10089,31 +10020,31 @@ hr.light {
 }
 
 .page-section {
-  padding: 4rem 0;
+  padding: 8rem 0;
 }
 
 #mainNav {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  background-color: #7ea4b3;
+  background-color: #fff;
   transition: background-color 0.2s ease;
 }
 #mainNav .navbar-brand {
   font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
-  color: #FFFEF2;
+  color: #212529;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
-  color: #FFFEF2;
+  color: #6c757d;
   font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   font-size: 0.9rem;
   padding: 0.75rem 0;
 }
 #mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
-  color: #e9eff2;
+  color: #f4623a;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active {
-  color: #fffdd0 !important;
+  color: #f4623a !important;
 }
 @media (min-width: 992px) {
   #mainNav {
@@ -10121,43 +10052,43 @@ hr.light {
     background-color: transparent;
   }
   #mainNav .navbar-brand {
-    color: #FFFEF2;
+    color: rgba(255, 255, 255, 0.7);
   }
   #mainNav .navbar-brand:hover {
-    color: #FFFEF2;
+    color: #fff;
   }
   #mainNav .navbar-nav .nav-item .nav-link {
-    color: #FFFEF2;
+    color: rgba(255, 255, 255, 0.7);
     padding: 0 1rem;
   }
   #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: #FFFEF2;
+    color: #fff;
   }
   #mainNav .navbar-nav .nav-item:last-child .nav-link {
     padding-right: 0;
   }
   #mainNav.navbar-scrolled {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-    background-color: #7ea4b3;
+    background-color: #fff;
   }
   #mainNav.navbar-scrolled .navbar-brand {
-    color: #e9eff2;
+    color: #212529;
   }
   #mainNav.navbar-scrolled .navbar-brand:hover {
-    color: #fffdd0;
+    color: #f4623a;
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link {
-    color: #e9eff2;
+    color: #212529;
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
-    color: #fffdd0;
+    color: #f4623a;
   }
 }
 
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(77, 77, 77, 0.8) 100%), url("../assets/img/IMG_5377.jpg");
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-masthead.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10205,7 +10136,7 @@ header.masthead h1 {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(126, 164, 179, 0.9);
+  background: rgba(244, 98, 58, 0.9);
   transition: opacity 0.25s ease;
   text-align: center;
 }
