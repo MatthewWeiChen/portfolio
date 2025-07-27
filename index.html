@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jordan Smith - Software Engineer</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Space+Grotesk:wght@300;400;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- CSS Modules -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+  <div class="loading-overlay">
+    <div class="loading-text">Loading portfolio...</div>
+  </div>
+
+  <div class="grid-bg"></div>
+  <div class="floating-shapes">
+    <div class="shape"></div>
+    <div class="shape"></div>
+    <div class="shape"></div>
+  </div>
+
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-item active">Home</a>
+      <a href="#projects" class="nav-item">Projects</a>
+      <a href="#skills" class="nav-item">Skills</a>
+      <a href="#contact" class="nav-item">Contact</a>
+    </div>
+  </nav>
+
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <div class="hero-subtitle">console.log("Hello World");</div>
+      <h1 class="hero-title">Jordan Smith</h1>
+      <p class="hero-description">
+        Full-stack developer specializing in creating immersive digital experiences
+        with cutting-edge technologies and pixel-perfect design.
+      </p>
+      <a href="#projects" class="hero-cta">
+        Explore My Work
+        <span>→</span>
+      </a>
+    </div>
+  </section>
+
+  <section id="projects" class="projects fade-in-up">
+    <div class="section-header">
+      <h2 class="section-title">Featured Work</h2>
+      <p class="section-subtitle">// Recent projects and experiments</p>
+    </div>
+
+    <div class="projects-container">
+      <div class="project-card">
+        <div class="project-image"></div>
+        <div class="project-header">
+          <div class="project-icon">🚀</div>
+          <h3 class="project-title">Neural Network Visualizer</h3>
+          <p class="project-description">
+            Interactive web application for visualizing neural network architectures
+            and training processes in real-time with WebGL acceleration.
+          </p>
+          <div class="project-tech">
+            <span class="tech-pill">React</span>
+            <span class="tech-pill">WebGL</span>
+            <span class="tech-pill">TensorFlow.js</span>
+            <span class="tech-pill">D3.js</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="project-link">Live Demo</a>
+            <a href="#" class="project-link">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-image"></div>
+        <div class="project-header">
+          <div class="project-icon">🌐</div>
+          <h3 class="project-title">Decentralized Chat Platform</h3>
+          <p class="project-description">
+            End-to-end encrypted messaging platform built on blockchain technology
+            with smart contract integration for secure communications.
+          </p>
+          <div class="project-tech">
+            <span class="tech-pill">Solidity</span>
+            <span class="tech-pill">Web3.js</span>
+            <span class="tech-pill">Next.js</span>
+            <span class="tech-pill">IPFS</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="project-link">Live Demo</a>
+            <a href="#" class="project-link">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-image"></div>
+        <div class="project-header">
+          <div class="project-icon">🎮</div>
+          <h3 class="project-title">AR Game Engine</h3>
+          <p class="project-description">
+            Cross-platform augmented reality game engine with advanced physics
+            simulation and real-time multiplayer capabilities.
+          </p>
+          <div class="project-tech">
+            <span class="tech-pill">C++</span>
+            <span class="tech-pill">OpenGL</span>
+            <span class="tech-pill">WebRTC</span>
+            <span class="tech-pill">Unity</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="project-link">Demo</a>
+            <a href="#" class="project-link">Documentation</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-image"></div>
+        <div class="project-header">
+          <div class="project-icon">🔬</div>
+          <h3 class="project-title">Bioinformatics Pipeline</h3>
+          <p class="project-description">
+            High-performance genomic data processing pipeline with machine learning
+            models for variant detection and analysis.
+          </p>
+          <div class="project-tech">
+            <span class="tech-pill">Python</span>
+            <span class="tech-pill">Docker</span>
+            <span class="tech-pill">Kubernetes</span>
+            <span class="tech-pill">Apache Spark</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="project-link">Research Paper</a>
+            <a href="#" class="project-link">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="skills fade-in-up">
+    <div class="skills-container">
+      <div class="section-header">
+        <h2 class="section-title">Technical Arsenal</h2>
+        <p class="section-subtitle">// Technologies and tools I work with</p>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-category">
+          <div class="skill-icon">⚡</div>
+          <h3 class="skill-title">Frontend Development</h3>
+          <div class="skill-list">
+            <span class="skill-item">React</span>
+            <span class="skill-item">Vue.js</span>
+            <span class="skill-item">TypeScript</span>
+            <span class="skill-item">WebGL</span>
+            <span class="skill-item">SCSS</span>
+            <span class="skill-item">Three.js</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-icon">🔧</div>
+          <h3 class="skill-title">Backend & Database</h3>
+          <div class="skill-list">
+            <span class="skill-item">Node.js</span>
+            <span class="skill-item">Python</span>
+            <span class="skill-item">PostgreSQL</span>
+            <span class="skill-item">MongoDB</span>
+            <span class="skill-item">Redis</span>
+            <span class="skill-item">GraphQL</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-icon">☁️</div>
+          <h3 class="skill-title">DevOps & Cloud</h3>
+          <div class="skill-list">
+            <span class="skill-item">Docker</span>
+            <span class="skill-item">Kubernetes</span>
+            <span class="skill-item">AWS</span>
+            <span class="skill-item">Terraform</span>
+            <span class="skill-item">GitHub Actions</span>
+            <span class="skill-item">Monitoring</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact fade-in-up">
+    <div class="section-header">
+      <h2 class="section-title">Let's Connect</h2>
+      <p class="section-subtitle">// Ready to build something amazing together?</p>
+    </div>
+
+    <form class="contact-form">
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label" for="firstName">First Name</label>
+          <input class="form-input" type="text" id="firstName" name="firstName" required>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="lastName">Last Name</label>
+          <input class="form-input" type="text" id="lastName" name="lastName" required>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label" for="email">Email Address</label>
+          <input class="form-input" type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="company">Company</label>
+          <input class="form-input" type="text" id="company" name="company">
+        </div>
+      </div>
+
+      <div class="form-group full-width">
+        <label class="form-label" for="message">Project Details</label>
+        <textarea class="form-textarea" id="message" name="message" placeholder="Tell me about your project..."
+          required></textarea>
+      </div>
+
+      <button type="submit" class="submit-button">Send Message</button>
+    </form>
+  </section>
+
+  <!-- JavaScript Modules -->
+  <script type="module" src="js/main.js"></script>
+</body>
+
+</html>
